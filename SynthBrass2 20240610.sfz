@@ -1,0 +1,81 @@
+//+ Name: Synth Brass 2
+//+ Date: 2024-06-10
+//+ URL: https://freepats.zenvoid.org/Synthesizer/synth-brass.html
+
+<global>
+ //+ Instrument: Synth Brass 2
+ ampeg_release=0.4
+ width=100
+ loop_mode=loop_continuous
+
+<group>
+<region>
+ lokey=36 hikey=44
+ ampeg_release=0.5
+ pitch_keycenter=42
+ loop_start=77630
+ loop_end=116726
+ sample=samples/F#2.flac
+<region>
+ lokey=45 hikey=50
+ ampeg_release=0.5
+ pitch_keycenter=48
+ loop_start=77619
+ loop_end=116726
+ sample=samples/C3.flac
+<region>
+ lokey=51 hikey=56
+ ampeg_release=0.46
+ pitch_keycenter=54
+ loop_start=77631
+ loop_end=116726
+ sample=samples/F#3.flac
+<region>
+ lokey=57 hikey=62
+ ampeg_release=0.42
+ pitch_keycenter=60
+ loop_start=77620
+ loop_end=116726
+ sample=samples/C4.flac
+<region>
+ lokey=63 hikey=68
+ ampeg_release=0.38
+ pitch_keycenter=66
+ loop_start=77751
+ loop_end=116726
+ sample=samples/F#4.flac
+<region>
+ lokey=69 hikey=74
+ ampeg_release=0.35
+ pitch_keycenter=72
+ loop_start=77788
+ loop_end=116726
+ sample=samples/C5.flac
+<region>
+ lokey=75 hikey=80
+ ampeg_release=0.32
+ pitch_keycenter=78
+ loop_start=77750
+ loop_end=116726
+ sample=samples/F#5.flac
+<region>
+ lokey=81 hikey=86
+ ampeg_release=0.292
+ pitch_keycenter=84
+ loop_start=73237
+ loop_end=116726
+ sample=samples/C6.flac
+<region>
+ lokey=87 hikey=91
+ ampeg_release=0.268
+ pitch_keycenter=90
+ loop_start=73400
+ loop_end=116726
+ sample=samples/F#6.flac
+<region>
+ lokey=92 hikey=100
+ ampeg_release=0.2
+ pitch_keycenter=96
+ loop_start=72900
+ loop_end=116726
+ sample=samples/C7.flac
